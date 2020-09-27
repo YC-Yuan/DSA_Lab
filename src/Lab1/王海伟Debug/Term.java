@@ -1,13 +1,14 @@
-package lab1;
+package lab1.王海伟Debug;
 
 public class Term {
     private double coef;
     private int exp;
     private Term next;
 
-    public Term(double coef,int exp) {
+    public Term(double coef, int exp) {
         this.coef = coef;
         this.exp = exp;
+        this.next = null;
     }
 
     /**
