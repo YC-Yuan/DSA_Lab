@@ -20,17 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="518ed1dd-3108-4580-acf3-3895977813ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/Lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSA_Lab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/out/production/Lab/lab1/Polynomial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab/lab1/Polynomial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/out/production/Lab/lab1/Term.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab/lab1/Term.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/src/lab1/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Polynomial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/src/lab1/Term.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Term.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab2/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab2/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab2/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab2/README.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lab2/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lab2/MyQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lab2/MyStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA_Lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSA_Lab.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +39,14 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DSA_Lab" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,48 +57,146 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1hoPQ2SR6Ic2xr5qQlizYpLfdSt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Lab2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\15344\Desktop\数据结构算法设计仓库\Lab\src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Polynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab1.Polynomial" />
+  <component name="RunManager" selected="JUnit.MyLinkedListTest.isEnd4">
+    <configuration name="MyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab1.*" />
+          <option name="PATTERN" value="Lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.MyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListTest.isEnd4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSA_Lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="isEnd4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSA_Lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.MyQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSA_Lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.MyStackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStackTest.String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSA_Lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.MyStackTest" />
+      <option name="METHOD_NAME" value="String" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Polynomial" />
+        <item itemvalue="JUnit.MyLinkedListTest.isEnd4" />
+        <item itemvalue="JUnit.MyStackTest" />
+        <item itemvalue="JUnit.MyQueueTest" />
+        <item itemvalue="JUnit.MyLinkedListTest" />
+        <item itemvalue="JUnit.MyStackTest.String" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -111,49 +212,89 @@
       <workItem from="1601221142134" duration="22000" />
       <workItem from="1601221181321" duration="35000" />
       <workItem from="1601221252428" duration="16000" />
+      <workItem from="1601278054882" duration="8265000" />
+      <workItem from="1601287398860" duration="864000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="426" key="GridCell.Tab.0.bottom" timestamp="1600678514802">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601279815286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="426" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600678514802" />
-    <state width="1877" height="426" key="GridCell.Tab.0.center" timestamp="1600678514802">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601279815286" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601282550897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="426" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600678514802" />
-    <state width="1877" height="426" key="GridCell.Tab.0.left" timestamp="1600678514802">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601282550897" />
+    <state width="1877" height="429" key="GridCell.Tab.0.bottom" timestamp="1601288274120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="426" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600678514802" />
-    <state width="1877" height="426" key="GridCell.Tab.0.right" timestamp="1600678514802">
+    <state width="1877" height="429" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601288274120" />
+    <state width="1877" height="429" key="GridCell.Tab.0.center" timestamp="1601288274120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="426" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600678514802" />
-    <state x="40" y="172" key="SettingsEditor" timestamp="1601221215450">
+    <state width="1877" height="429" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601288274120" />
+    <state width="1877" height="429" key="GridCell.Tab.0.left" timestamp="1601288274120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="40" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601221215450" />
+    <state width="1877" height="429" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601288274120" />
+    <state width="1877" height="429" key="GridCell.Tab.0.right" timestamp="1601288274120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="429" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601288274120" />
+    <state width="1877" height="395" key="GridCell.Tab.1.bottom" timestamp="1601286412298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601286412298" />
+    <state width="1877" height="395" key="GridCell.Tab.1.center" timestamp="1601286412298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601286412298" />
+    <state width="1877" height="395" key="GridCell.Tab.1.left" timestamp="1601286412298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601286412298" />
+    <state width="1877" height="395" key="GridCell.Tab.1.right" timestamp="1601286412298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601286412298" />
+    <state x="40" y="172" key="SettingsEditor" timestamp="1601278317978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="40" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601278317978" />
+    <state x="658" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1601278357604">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1601278357604" />
+    <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601279714135">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601279714135" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601280904844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601280904844" />
   </component>
 </project>
