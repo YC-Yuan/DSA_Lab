@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="518ed1dd-3108-4580-acf3-3895977813ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res/list.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/res.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_three/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_three/EventSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_three/MyHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_three/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_three/EventSimulatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_three/MyHeapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_four/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_four/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_four/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_four/BinarySearchTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab/lab1/Polynomial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab/lab1/Term.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,80 +94,81 @@
       <recent name="C:\Users\15344\Desktop\数据结构算法设计仓库\Lab\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EventSimulatorTest">
-    <configuration name="EventSimulatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BinarySearchTreeTest.closestValue">
+    <configuration name="BinarySearchTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_three.*" />
+          <option name="PATTERN" value="lab_four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_three" />
-      <option name="MAIN_CLASS_NAME" value="lab_three.EventSimulatorTest" />
+      <option name="PACKAGE_NAME" value="lab_four" />
+      <option name="MAIN_CLASS_NAME" value="lab_four.BinarySearchTreeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventSimulatorTest.simulate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchTreeTest.closestValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_three.*" />
+          <option name="PATTERN" value="lab_four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_three" />
-      <option name="MAIN_CLASS_NAME" value="lab_three.EventSimulatorTest" />
-      <option name="METHOD_NAME" value="simulate" />
+      <option name="PACKAGE_NAME" value="lab_four" />
+      <option name="MAIN_CLASS_NAME" value="lab_four.BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="closestValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventSimulatorTest.simulate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchTreeTest.huge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_three.*" />
+          <option name="PATTERN" value="lab_four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_three" />
-      <option name="MAIN_CLASS_NAME" value="lab_three.EventSimulatorTest" />
-      <option name="METHOD_NAME" value="simulate2" />
+      <option name="PACKAGE_NAME" value="lab_four" />
+      <option name="MAIN_CLASS_NAME" value="lab_four.BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="huge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHeapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchTreeTest.order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_three.*" />
+          <option name="PATTERN" value="lab_four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_three" />
-      <option name="MAIN_CLASS_NAME" value="lab_three.MyHeapTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="lab_four" />
+      <option name="MAIN_CLASS_NAME" value="lab_four.BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="order" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHeapTest.findMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchTreeTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_three.*" />
+          <option name="PATTERN" value="lab_four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_three" />
-      <option name="MAIN_CLASS_NAME" value="lab_three.MyHeapTest" />
-      <option name="METHOD_NAME" value="findMin" />
+      <option name="PACKAGE_NAME" value="lab_four" />
+      <option name="MAIN_CLASS_NAME" value="lab_four.BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="remove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EventSimulatorTest" />
-        <item itemvalue="JUnit.EventSimulatorTest.simulate2" />
-        <item itemvalue="JUnit.EventSimulatorTest.simulate" />
-        <item itemvalue="JUnit.MyHeapTest" />
-        <item itemvalue="JUnit.MyHeapTest.findMin" />
+        <item itemvalue="JUnit.BinarySearchTreeTest.closestValue" />
+        <item itemvalue="JUnit.BinarySearchTreeTest" />
+        <item itemvalue="JUnit.BinarySearchTreeTest.remove" />
+        <item itemvalue="JUnit.BinarySearchTreeTest.huge" />
+        <item itemvalue="JUnit.BinarySearchTreeTest.order" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +214,7 @@
       <workItem from="1601287398860" duration="864000" />
       <workItem from="1601305666411" duration="349000" />
       <workItem from="1602487653238" duration="8946000" />
+      <workItem from="1603092137793" duration="10226000" />
     </task>
     <task id="LOCAL-00001" summary="Lab2">
       <created>1601305707730</created>
@@ -259,10 +255,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601279815286" />
-    <state x="73" y="504" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602495852192">
+    <state x="73" y="504" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603099302232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="73" y="504" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602495852192" />
+    <state x="73" y="504" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603099302232" />
     <state x="704" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602487995978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -275,22 +271,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601305705903" />
-    <state width="1877" height="395" key="GridCell.Tab.0.bottom" timestamp="1602496612451">
+    <state width="1877" height="31" key="GridCell.Tab.0.bottom" timestamp="1603102375984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602496612451" />
-    <state width="1877" height="395" key="GridCell.Tab.0.center" timestamp="1602496612451">
+    <state width="1877" height="31" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603102375984" />
+    <state width="1877" height="31" key="GridCell.Tab.0.center" timestamp="1603102375983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602496612451" />
-    <state width="1877" height="395" key="GridCell.Tab.0.left" timestamp="1602496612451">
+    <state width="1877" height="31" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603102375983" />
+    <state width="1877" height="31" key="GridCell.Tab.0.left" timestamp="1603102375983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602496612451" />
-    <state width="1877" height="395" key="GridCell.Tab.0.right" timestamp="1602496612451">
+    <state width="1877" height="31" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603102375983" />
+    <state width="1877" height="31" key="GridCell.Tab.0.right" timestamp="1603102375983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602496612451" />
+    <state width="1877" height="31" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603102375983" />
     <state width="1877" height="395" key="GridCell.Tab.1.bottom" timestamp="1602496612451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
