@@ -1,4 +1,4 @@
-package Lab2;
+package lab_two;
 
 import org.junit.jupiter.api.Test;
 
@@ -7,12 +7,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class MyStackTest {
 
     @Test
-    public void top() throws Lab2.MyStackEmptyException {
-        Lab2.MyStack<Integer> stack = new Lab2.MyStack<>();
+    public void top() throws lab_two.MyStackEmptyException {
+        lab_two.MyStack<Integer> stack = new lab_two.MyStack<>();
         assertTrue(stack.isEmpty());
         assertEquals(0, stack.size());
-        assertThrows(Lab2.MyStackEmptyException.class, stack::top);
-        assertThrows(Lab2.MyStackEmptyException.class, stack::pop);
+        assertThrows(lab_two.MyStackEmptyException.class, stack::top);
+        assertThrows(lab_two.MyStackEmptyException.class, stack::pop);
 
         stack.push(1);
         stack.push(3);
@@ -33,7 +33,7 @@ class MyStackTest {
 
     @Test
     public void String() {
-        Lab2.MyStack<Integer> stack = new Lab2.MyStack<>();
+        lab_two.MyStack<Integer> stack = new lab_two.MyStack<>();
         String s = stack.toString();
         assertEquals("", s);
         stack.push(4);

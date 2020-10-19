@@ -168,7 +168,6 @@ class BinarySearchTreeTest {
         Integer[] inorder = bst.inorder(true).toArray(new Integer[0]);
         assertArrayEquals(exceptedInorder, inorder);
 
-
         bst.remove(1000);
         assertEquals(999_999, bst.size());
         assertEquals(1001, bst.kthSmallest(1000));
@@ -178,6 +177,5 @@ class BinarySearchTreeTest {
         inorder = bst.inorder(false).toArray(new Integer[0]);
         exceptedInorder = l.toArray(new Integer[0]);
         assertArrayEquals(exceptedInorder, inorder);
-
     }
 }

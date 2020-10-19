@@ -1,4 +1,4 @@
-package Lab2;
+package lab_two;
 
 class MyQueueEmptyException extends Exception {
     public MyQueueEmptyException(String message) {
@@ -7,10 +7,10 @@ class MyQueueEmptyException extends Exception {
 }
 
 public class MyQueue<T> {
-    private final Lab2.MyLinkedList<T> queue;
+    private final lab_two.MyLinkedList<T> queue;
 
     public MyQueue() {
-        queue = new Lab2.MyLinkedList<>();
+        queue = new lab_two.MyLinkedList<>();
     }
 
     /**

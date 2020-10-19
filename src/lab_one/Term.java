@@ -1,4 +1,4 @@
-package Lab1;
+package lab_one;
 
 public class Term {
     private double coef;

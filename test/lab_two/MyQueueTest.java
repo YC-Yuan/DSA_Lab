@@ -1,4 +1,4 @@
-package Lab2;
+package lab_two;
 
 import org.junit.jupiter.api.Test;
 
@@ -7,12 +7,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class MyQueueTest {
 
     @Test
-    void top() throws Lab2.MyQueueEmptyException {
-        Lab2.MyQueue<Integer> queue = new Lab2.MyQueue<>();
+    void top() throws lab_two.MyQueueEmptyException {
+        lab_two.MyQueue<Integer> queue = new lab_two.MyQueue<>();
         assertTrue(queue.isEmpty());
         assertEquals(0, queue.size());
-        assertThrows(Lab2.MyQueueEmptyException.class, queue::top);
-        assertThrows(Lab2.MyQueueEmptyException.class, queue::dequeue);
+        assertThrows(lab_two.MyQueueEmptyException.class, queue::top);
+        assertThrows(lab_two.MyQueueEmptyException.class, queue::dequeue);
 
         queue.enqueue(2);
         queue.enqueue(4);
@@ -30,15 +30,15 @@ class MyQueueTest {
         assertEquals(1, queue.top());
         assertEquals(1, queue.dequeue());
 
-        assertThrows(Lab2.MyQueueEmptyException.class, queue::top);
-        assertThrows(Lab2.MyQueueEmptyException.class, queue::dequeue);
+        assertThrows(lab_two.MyQueueEmptyException.class, queue::top);
+        assertThrows(lab_two.MyQueueEmptyException.class, queue::dequeue);
         assertTrue(queue.isEmpty());
 
     }
 
     @Test
     public void String() {
-        Lab2.MyQueue<Integer> queue = new Lab2.MyQueue<>();
+        lab_two.MyQueue<Integer> queue = new lab_two.MyQueue<>();
         String s = queue.toString();
         assertEquals("", s);
         queue.enqueue(1);

@@ -1,6 +1,4 @@
-package Lab2;
-
-import Lab2.MyLinkedList;
+package lab_two;
 
 class MyStackEmptyException extends Exception {
     public MyStackEmptyException(String message) {

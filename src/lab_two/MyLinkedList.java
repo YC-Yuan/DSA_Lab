@@ -1,4 +1,4 @@
-package Lab2;
+package lab_two;
 /*
  * May add properties, functions, classes if you need.
  * But mustn't change interfaces called in test cases.
