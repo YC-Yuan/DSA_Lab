@@ -20,12 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="518ed1dd-3108-4580-acf3-3895977813ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lab_six/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_six/README.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_six/DijkstraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_seven/InsertSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_seven/Lab7Sorting.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_seven/MergeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_seven/QuickSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_seven/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_six/Dijkstra.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_six/README.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/DSA_Lab/lab_seven/TestSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/DSA_Lab/lab_six/DijkstraTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_eight/BloomFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_seven/19302010020.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_seven/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_seven/Lab7Sorting.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_seven/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_seven/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_seven/lab7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_seven/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_eight/TestBloomFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_seven/TestSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Lab/META-INF/DSA_Lab.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/DSA_Lab/META-INF/DSA_Lab.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +80,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -84,6 +100,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Lab2" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lab_seven" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -92,13 +111,13 @@
       <recent name="C:\Users\15344\Desktop\数据结构算法设计仓库\Lab\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DijkstraTest">
-    <configuration name="TestFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_five.hashtabletest.TestFrame" />
+  <component name="RunManager" selected="JUnit.TestBloomFilter">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_seven.MergeSort" />
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_five.hashtabletest.*" />
+          <option name="PATTERN" value="lab_seven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,94 +125,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTreeTest.huge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBloomFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_four.*" />
+          <option name="PATTERN" value="lab_eight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_four" />
-      <option name="MAIN_CLASS_NAME" value="lab_four.BinarySearchTreeTest" />
-      <option name="METHOD_NAME" value="huge" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DijkstraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSA_Lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab_six.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab_six" />
-      <option name="MAIN_CLASS_NAME" value="lab_six.DijkstraTest" />
+      <option name="PACKAGE_NAME" value="lab_eight" />
+      <option name="MAIN_CLASS_NAME" value="lab_eight.TestBloomFilter" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTableTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_five.hashtabletest.*" />
+          <option name="PATTERN" value="lab_seven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_five.hashtabletest" />
-      <option name="MAIN_CLASS_NAME" value="lab_five.hashtabletest.HashTableTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="lab_seven" />
+      <option name="MAIN_CLASS_NAME" value="lab_seven.TestSort" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTableTest.testSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSort.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_five.hashtabletest.*" />
+          <option name="PATTERN" value="lab_seven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_five.hashtabletest" />
-      <option name="MAIN_CLASS_NAME" value="lab_five.hashtabletest.HashTableTest" />
-      <option name="METHOD_NAME" value="testSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="lab_seven" />
+      <option name="MAIN_CLASS_NAME" value="lab_seven.TestSort" />
+      <option name="METHOD_NAME" value="testMergeSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSort.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSA_Lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_seven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab_seven" />
+      <option name="MAIN_CLASS_NAME" value="lab_seven.TestSort" />
+      <option name="METHOD_NAME" value="testQuickSort" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DijkstraTest" />
-        <item itemvalue="Application.TestFrame" />
-        <item itemvalue="TestNG.HashTableTest" />
-        <item itemvalue="TestNG.HashTableTest.testSearch" />
-        <item itemvalue="JUnit.BinarySearchTreeTest.huge" />
+        <item itemvalue="JUnit.TestBloomFilter" />
+        <item itemvalue="JUnit.TestSort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="JUnit.TestSort.testMergeSort" />
+        <item itemvalue="JUnit.TestSort.testQuickSort" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -217,7 +221,10 @@
       <workItem from="1603696948131" duration="2755000" />
       <workItem from="1603699802302" duration="185000" />
       <workItem from="1603798525681" duration="103000" />
-      <workItem from="1604906863004" duration="5330000" />
+      <workItem from="1604906863004" duration="6400000" />
+      <workItem from="1606111159797" duration="55000" />
+      <workItem from="1606115894862" duration="4342000" />
+      <workItem from="1607325800563" duration="4703000" />
     </task>
     <task id="LOCAL-00001" summary="Lab2">
       <created>1601305707730</created>
@@ -226,24 +233,30 @@
       <option name="project" value="LOCAL" />
       <updated>1601305707730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lab6">
+      <created>1604912490747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604912490747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -251,7 +264,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="Lab2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab2" />
+    <MESSAGE value="Lab6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601279815286">
@@ -270,30 +284,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="637" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603697214638" />
+    <state x="739" y="379" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606116123498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="379" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1606116123498" />
     <state x="739" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1603697191586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1603697191586" />
-    <state x="560" y="109" key="CommitChangelistDialog2" timestamp="1601305705903">
+    <state x="560" y="109" key="CommitChangelistDialog2" timestamp="1604912488720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601305705903" />
-    <state width="1877" height="780" key="GridCell.Tab.0.bottom" timestamp="1604912407277">
+    <state x="560" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604912488720" />
+    <state width="1877" height="184" key="GridCell.Tab.0.bottom" timestamp="1607332063783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="780" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604912407277" />
-    <state width="1877" height="780" key="GridCell.Tab.0.center" timestamp="1604912407276">
+    <state width="1877" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607332063783" />
+    <state width="1877" height="184" key="GridCell.Tab.0.center" timestamp="1607332063782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="780" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604912407276" />
-    <state width="1877" height="780" key="GridCell.Tab.0.left" timestamp="1604912407276">
+    <state width="1877" height="184" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607332063782" />
+    <state width="1877" height="184" key="GridCell.Tab.0.left" timestamp="1607332063781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="780" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604912407276" />
-    <state width="1877" height="780" key="GridCell.Tab.0.right" timestamp="1604912407276">
+    <state width="1877" height="184" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607332063781" />
+    <state width="1877" height="184" key="GridCell.Tab.0.right" timestamp="1607332063782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="780" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604912407276" />
+    <state width="1877" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607332063782" />
     <state width="1877" height="395" key="GridCell.Tab.1.bottom" timestamp="1602496612451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -318,10 +336,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1602487867425" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601305782097">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607332048065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601305782097" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607332048065" />
     <state x="658" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603697249530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
