@@ -19,27 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="518ed1dd-3108-4580-acf3-3895977813ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_seven/InsertSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_seven/Lab7Sorting.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_seven/MergeSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_seven/QuickSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_seven/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_six/Dijkstra.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA_Lab/lab_six/README.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/DSA_Lab/lab_seven/TestSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/DSA_Lab/lab_six/DijkstraTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_eight/BloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_seven/19302010020.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_seven/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_seven/Lab7Sorting.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_seven/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_seven/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_seven/lab7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_seven/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_eight/TestBloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_seven/TestSort.java" afterDir="false" />
+    <list default="true" id="518ed1dd-3108-4580-acf3-3895977813ff" name="Default Changelist" comment="Lab9">
+      <change afterPath="$PROJECT_DIR$/src/lab_nine/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_nine/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_nine/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +94,20 @@
       <recent name="C:\Users\15344\Desktop\数据结构算法设计仓库\Lab\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBloomFilter">
+  <component name="RunManager" selected="Application.KMP">
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_nine.KMP" />
+      <module name="DSA_Lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_nine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab_seven.MergeSort" />
       <module name="DSA_Lab" />
@@ -121,6 +117,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,33 +162,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSort.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA_Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_seven.*" />
+          <option name="PATTERN" value="lab_nine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_seven" />
-      <option name="MAIN_CLASS_NAME" value="lab_seven.TestSort" />
-      <option name="METHOD_NAME" value="testMergeSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSort.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSA_Lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab_seven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab_seven" />
-      <option name="MAIN_CLASS_NAME" value="lab_seven.TestSort" />
-      <option name="METHOD_NAME" value="testQuickSort" />
+      <option name="PACKAGE_NAME" value="lab_nine" />
+      <option name="MAIN_CLASS_NAME" value="lab_nine.test" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KMP" />
+        <item itemvalue="JUnit.test.test" />
         <item itemvalue="JUnit.TestBloomFilter" />
         <item itemvalue="JUnit.TestSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="JUnit.TestSort.testMergeSort" />
-        <item itemvalue="JUnit.TestSort.testQuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +216,8 @@
       <workItem from="1606111159797" duration="55000" />
       <workItem from="1606115894862" duration="4342000" />
       <workItem from="1607325800563" duration="4703000" />
+      <workItem from="1607342927757" duration="84000" />
+      <workItem from="1607930573516" duration="3319000" />
     </task>
     <task id="LOCAL-00001" summary="Lab2">
       <created>1601305707730</created>
@@ -240,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604912490747</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lab8">
+      <created>1607342991679</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607342991679</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +265,9 @@
     </ignored-roots>
     <MESSAGE value="Lab2" />
     <MESSAGE value="Lab6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab6" />
+    <MESSAGE value="Lab8" />
+    <MESSAGE value="Lab9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab9" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601279815286">
@@ -292,26 +294,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1603697191586" />
-    <state x="560" y="109" key="CommitChangelistDialog2" timestamp="1604912488720">
+    <state x="560" y="109" key="CommitChangelistDialog2" timestamp="1607933464626">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604912488720" />
-    <state width="1877" height="184" key="GridCell.Tab.0.bottom" timestamp="1607332063783">
+    <state x="560" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607933464626" />
+    <state width="1877" height="337" key="GridCell.Tab.0.bottom" timestamp="1607933435579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607332063783" />
-    <state width="1877" height="184" key="GridCell.Tab.0.center" timestamp="1607332063782">
+    <state width="1877" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607933435579" />
+    <state width="1877" height="337" key="GridCell.Tab.0.center" timestamp="1607933435579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="184" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607332063782" />
-    <state width="1877" height="184" key="GridCell.Tab.0.left" timestamp="1607332063781">
+    <state width="1877" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607933435579" />
+    <state width="1877" height="337" key="GridCell.Tab.0.left" timestamp="1607933435578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="184" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607332063781" />
-    <state width="1877" height="184" key="GridCell.Tab.0.right" timestamp="1607332063782">
+    <state width="1877" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607933435578" />
+    <state width="1877" height="337" key="GridCell.Tab.0.right" timestamp="1607933435579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607332063782" />
+    <state width="1877" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607933435579" />
     <state width="1877" height="395" key="GridCell.Tab.1.bottom" timestamp="1602496612451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -336,10 +338,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1602487867425" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607332048065">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607342996616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607332048065" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607342996616" />
     <state x="658" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603697249530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -348,6 +350,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601279714135" />
+    <state x="499" y="256" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607933037143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="499" y="256" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1607933037143" />
     <state x="141" y="308" key="extract.method.dialog" timestamp="1603114231423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -356,5 +362,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603698799524" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
