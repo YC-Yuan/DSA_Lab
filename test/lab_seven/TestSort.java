@@ -15,9 +15,9 @@ import java.util.Arrays;
 
 
 public class TestSort {
-    private static final int size = 100000;  // Test data size, you find the best algorithm for different dataset sizes.
-    private static Integer[] testSet = new Integer[size];
-    private static Integer[] verifySet = new Integer[size];
+    private static final int size = 100000000;  // Test data size, you find the best algorithm for different dataset sizes.
+    private static final Integer[] testSet = new Integer[size];
+    private static final Integer[] verifySet = new Integer[size];
 
     @BeforeAll
     static void generateTestSet() {
@@ -28,36 +28,42 @@ public class TestSort {
         }
         Arrays.sort(verifySet);
 
-        System.out.println("Size:"+size);
+        System.out.println("Size:" + size);
     }
 
-    @Test
+/*    @Test
     public void testMergeSort() {
         Integer[] test1 = testSet.clone();
 
-        long startTime=System.currentTimeMillis();
+        long startTime = System.currentTimeMillis();
 
         MergeSort.sort(test1);
 
-        System.out.println("Merge time:"+(System.currentTimeMillis()-startTime));
+        System.out.println("Merge time:" + (System.currentTimeMillis() - startTime));
 
         assertArrayEquals(verifySet, test1);
-    }
+    }*/
 
     @Test
     public void testQuickSort() {
         Integer[] test1 = testSet.clone();
+        Integer[] test2 = testSet.clone();
 
-        long startTime=System.currentTimeMillis();
+        long startTime = System.currentTimeMillis();
 
         QuickSort.sort(test1);
 
-        System.out.println("Quick time:"+(System.currentTimeMillis()-startTime));
+        System.out.println("Quick time:" + (System.currentTimeMillis() - startTime));
+
+        startTime = System.currentTimeMillis();
+        QuickSort.sortRandom(test2);
+        System.out.println("QuickRandom time:" + (System.currentTimeMillis() - startTime));
 
         assertArrayEquals(verifySet, test1);
+        assertArrayEquals(verifySet, test2);
     }
 
-    @Test
+/*    @Test
     public void testInsertSort() {
         Integer[] test1 = testSet.clone();
 //        for (int i = 0; i < 1000; i++) {
@@ -71,6 +77,6 @@ public class TestSort {
         System.out.println("Insert time:"+(System.currentTimeMillis()-startTime));
 
         assertArrayEquals(verifySet, test1);
-    }
+    }*/
 }
 

@@ -29,7 +29,6 @@ public class Polynomial {
             this.setHead(term);
             return;
         }
-
         //指数增加了，直接添加，并连接到原来的head
         if (term.getExp() > this.getHead().getExp()) {
             term.setNext(this.getHead());
@@ -38,11 +37,9 @@ public class Polynomial {
         else {
             //根据添加项的指数查询
             Term termExp = this.getTerm(term.getExp());
-            if (this.getTerm(term.getExp()) == null) {
-                //原本没有此项，插入到内部
+            if (this.getTerm(term.getExp()) == null) {//原本没有此项，插入到内部
                 Term termExecuting = this.getHead();
-                while (termExecuting.next() != null) {
-                    //还没到结尾项
+                while (termExecuting.next() != null) {//还没到结尾项
                     if (termExecuting.next().getExp() < term.getExp()) {
                         //找到插入位置，进行插入操作
                         term.setNext(termExecuting.next());

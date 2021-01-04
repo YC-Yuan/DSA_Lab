@@ -9,12 +9,12 @@ public class BloomFilter {
     private final int size = 1 << 28;
 
     //determine the number of hash function (different seeds)
-    private final int[] seeds = new int[]{1, 2, 3};
-    private final boolean[] bits = new boolean[size];
+    private final int[] seeds = new int[]{2,3};
+    private final boolean[] bits = new boolean[size];//过滤器数组
 
     public BloomFilter() {
         for (int i = 0; i < size; i++) {
-            bits[i] = false;
+            bits[i] = false;//默认false
         }
     }
 
@@ -23,7 +23,7 @@ public class BloomFilter {
         for (int i : seeds
         ) {
             int hash = hash(i, str);
-            bits[hash] = true;
+            bits[hash] = true;//hash之后设置为true
         }
     }
 
@@ -32,7 +32,7 @@ public class BloomFilter {
         for (int i : seeds
         ) {
             int hash = hash(i, str);
-            if (!bits[hash]) return false;
+            if (!bits[hash]) return false;//找到0就判断为不包含
         }
         return true;
     }
