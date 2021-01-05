@@ -9,8 +9,9 @@ public class BloomFilter {
     private final int size = 1 << 28;
 
     //determine the number of hash function (different seeds)
+    //private final int[] seeds = new int[]{13,17,19,20,21,22,78,31,93,30};
     private final int[] seeds = new int[]{2,3};
-    private final boolean[] bits = new boolean[size];//过滤器数组
+    final boolean[] bits = new boolean[size];//过滤器数组
 
     public BloomFilter() {
         for (int i = 0; i < size; i++) {
@@ -23,6 +24,7 @@ public class BloomFilter {
         for (int i : seeds
         ) {
             int hash = hash(i, str);
+//            int hash = hashUniversal(i, str);
             bits[hash] = true;//hash之后设置为true
         }
     }
@@ -32,6 +34,7 @@ public class BloomFilter {
         for (int i : seeds
         ) {
             int hash = hash(i, str);
+//            int hash = hashUniversal(i, str);
             if (!bits[hash]) return false;//找到0就判断为不包含
         }
         return true;
@@ -54,5 +57,13 @@ public class BloomFilter {
             default:
                 return 0;
         }
+    }
+
+    //尝试全域散列函数....太烂了
+    private int hashUniversal(int seed, String str) {
+        final int prime = 3922507;//取大素数
+        int strCode=str.hashCode();
+        //System.out.println(Math.abs(((seed * strCode + 73) % prime) % size));
+        return Math.abs(((seed * strCode + 73) % prime) % size);
     }
 }

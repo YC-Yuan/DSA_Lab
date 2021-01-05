@@ -36,6 +36,12 @@ public class TestBloomFilter {
             }
         }
         System.out.printf("FP: %d", falsePositiveCount);
+
+        int num=0;
+        for (int i=0;i<bf.bits.length;i++){
+            if (bf.bits[i]) num++;
+        }
+        System.out.println("ratio of 1:" + (float) num / bf.bits.length);
         assertTrue(falsePositiveCount < 0.0005 * QUERY_SIZE);
     }
 
